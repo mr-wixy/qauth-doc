@@ -1,4 +1,3 @@
-* [网站首页](https://qauth.cn ':target=_self')
 * [文档首页](/)
 * [接入指南](guide/)
     * [接入方式一（简单）](guide/method1/)
