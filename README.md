@@ -17,4 +17,4 @@ QuickAuth是一个免费、便捷的第三发登录平台
 
 #### 使用说明
 
-请参考 [接入文档](https://qauth.cn/doc/index.html) 
+请参考 [接入文档](https://wixy.gitee.io/qauth-doc) 
