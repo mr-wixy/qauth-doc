@@ -8,6 +8,7 @@ QuickAuth是一个免费、便捷的第三发登录平台
  - 微信
  - QQ
  - Github
+ - Gitee
 
 #### 软件特点
 

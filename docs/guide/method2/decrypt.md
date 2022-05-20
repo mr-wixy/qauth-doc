@@ -8,9 +8,7 @@
 
 加密数据解密接口
 
-#### 3、请求类型 
-
-请求类型：`POST`
+#### 3、请求类型  `POST`
 
 Content-Type: `application/json`
 
