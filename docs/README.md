@@ -1,7 +1,6 @@
 ## QuickAuth介绍
 
-> QuickAuth（简称 QAuth) 是一个快捷扫码登陆项目
-该项目致力于帮助个人开发者为自己的项目接入扫码登陆功能
+> QuickAuth是一个便捷的第三方登录集成平台
 
 
 ### 接入指南
@@ -12,7 +11,7 @@
 
 ### 接口列表
 
-#### 普通接口（免费用户永久可用）
+#### 普通接口（免费用户可用）
 
 1. [小程序扫码登录界面(/qrconnect)](/guide/method1/qrconnect)
 2. [获取用户信息(/user)](/guide/method1/user)
@@ -27,7 +26,6 @@
 1. [获取二维码(/qrcode)](/guide/archived/qrcode)
 2. [获取扫码状态(/qrcode/state)](/guide/archived/state)
 3. [用户信息解密(/decrypt)](/guide/archived/decrypt)
-
 
 ### 接入应用
 
