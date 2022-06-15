@@ -1,11 +1,13 @@
-## #方式一
+## #基础接口（永久免费使用）
+
+> 该接入方式为微信小程序扫码授权的方式
 
 > 前端点击微信扫码登录按钮跳转到QuickAuth扫码登录界面（或者弹出扫码登录窗口），用户扫码完成后重定向到开发者配置的回调地址并携带相应的参数
 
 ### 接口列表
 
-1. [扫码界面(/qrconnect)](/guide/method1/qrconnect)
-2. [获取用户信息(/user)](/guide/method1/user)
+1. [扫码界面(/qrconnect)](/guide/free/qrconnect)
+2. [获取用户信息(/user)](/guide/free/user)
 
 #### 创建应用
 
@@ -21,8 +23,8 @@
 
 #### 修改现有项目
 
-1、修改自己项目的登录逻辑，携带参数appkey和state跳转到[扫码界面](/guide/method1/qrconnect)
+1、修改自己项目的登录逻辑，携带参数appkey和state跳转到[扫码界面](/guide/free/qrconnect)
 
 2、用户扫码并授权后界面跳转到应用配置的回调地址并带上参数`code`和`state`
 
-3、开发者使用code、Appkey、UserSecretKey发起[获取用户信息](/guide/method1/user)请求并根据返回信息完成登录逻辑
+3、开发者使用code、Appkey、UserSecretKey发起[获取用户信息](/guide/free/user)请求并根据返回信息完成登录逻辑

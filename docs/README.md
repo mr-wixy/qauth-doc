@@ -7,15 +7,27 @@
 ### 接入指南
 
 - [接入指南](guide/)	
+- [订阅功能说明](subscribe)
 - [信息的加解密](other/encrypt)
 
 ### 接口列表
 
-1. [扫码界面(/qrconnect)](/guide/method1/qrconnect)
+#### 普通接口（免费用户永久可用）
+
+1. [小程序扫码登录界面(/qrconnect)](/guide/method1/qrconnect)
 2. [获取用户信息(/user)](/guide/method1/user)
-3. [获取二维码(/qrcode)](/guide/method2/qrcode)
-4. [获取扫码状态(/qrcode/state)](/guide/method2/state)
-5. [用户信息解密(/decrypt)](/guide/method2/decrypt)
+
+#### 高级接口（订阅会员可用）
+
+1. [授权登录界面(/oauth)](/guide/advanced/oauth)
+2. [获取用户信息(/user)](/guide/advanced/user)
+
+#### 即将停止维护的接口
+
+1. [获取二维码(/qrcode)](/guide/archived/qrcode)
+2. [获取扫码状态(/qrcode/state)](/guide/archived/state)
+3. [用户信息解密(/decrypt)](/guide/archived/decrypt)
+
 
 ### 接入应用
 
