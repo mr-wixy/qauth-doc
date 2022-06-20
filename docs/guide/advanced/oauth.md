@@ -13,11 +13,12 @@
 |参数|必须|备注|
 |--|--|--|
 |type|是|授权方式，支持（wechat、qq、github、gitee）|
+|detailType|否|type传入wechat是，可传入detailType参数来控制微信接入的调用方式，支持（offiaccount、miniprogram和oplatform），不传或者传入其他值则默认为offiaccount|
 |appkey|是|开发者在QuickAuth网站创建应用的AppKey|
 |state|是|开发者应用附加信息|
 
 ##### 备注
-type参数传wechat时，如果是在微信客户端内打开网站，则不需要扫码，直接完成静默授权逻辑，实现无感登录
+type参数传wechat，detailType传入offiaccount或默认传参时，如果是在微信客户端内打开网站，则不需要扫码，直接完成静默授权逻辑，实现无感登录
 
 #### 4、重定向时携带的参数
 
