@@ -1,39 +1,26 @@
 # 接入指南
 
+## 普通接入方式
 
-## #微信小程序扫码登陆
+> 通过跳转界面实现用户授权登录
 
-> 通过微信扫码打开小程序完成授权登录的操作
+### 特点
 
-#### 特点
+- 支持小程序扫码、QQ、Gitee、Github、支付宝、微博、钉钉等永久免费的接入方式
+- 支持订阅会员专属的 微信扫码登录、SMS短信登录的方式
+- 支持Typecho和WordPress插件接入，无代码接入
 
-- 接入永久免费
-- 接入流程简单快捷
-- Typecho和WordPress可以直接使用插件，无代码接入
+### 接口列表
 
-[详细接口文档](/guide/free/)
+[详细接口文档](/guide/guide)
 
-[Typecho接入教程](https://gitee.com/wixy/QuickAuthLogin)
+[QualPro插件接入](https://github.com/mr-wixy/QualPro)
 
-[WordPress接入教程](https://gitee.com/wixy/QuickAuthLogin-WP)
+[Typecho接入教程（QuickAuthLogin）](https://github.com/mr-wixy/QuickAuthLogin)
 
-## #高级订阅接口接入
+[WordPress接入教程（QuickAuthLogin-WP）](https://github.com/mr-wixy/QuickAuthLogin-WP)
 
-> 通过微信扫码打开H5页面完成授权登录的操作，支持微信内静默授权，支持QQ、Github、Gitee等授权登录方式
-
-#### 特点
-
-- 微信H5授权无需打开小程序，直接完成授权
-- 支持微信客户端内实现无感登录
-- 支持QQ、Github、Gitee等授权登录方式
-
-[详细接口文档](/guide/advanced/)
-
-[Typecho接入教程（高级版插件正在开发中）](https://gitee.com/wixy/QuickAuthLogin)
-
-[WordPress接入教程（高级版插件正在开发中）](https://gitee.com/wixy/QuickAuthLogin-WP)
-
-## #复杂授权方式
+## 复杂接入方式（已归档，停止更新）
 
 > 开发者通过接口获取二维码并展示，用户扫码授权完成后QuickAuth向开发者配置的回调地址发起授权请求并传入用户信息，开发者根据调用参数和回传参数识别用户登录情况
 
@@ -41,5 +28,6 @@
 
 - 可自行获取二维码，自定义登录界面及流程
 - 自定义程度高
+- 仅支持小程序扫码登录的接入方式
 
 [详细接口文档](/guide/archived/)
