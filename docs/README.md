@@ -1,6 +1,6 @@
 # QuickAuth介绍
 
-> QuickAuth是一个便捷的第三方登录集成平台，支持微信（开放平台、服务号、小程序）、QQ、短信验证码、Github、Gitee、支付宝、微博、钉钉等多平台授权登录方式，支持通过Typecho、WordPress插件实现免代码接入
+> QuickAuth是一个便捷的第三方登录集成平台，支持微信（开放平台、公众号、小程序）、QQ、短信验证码、Github、Gitee、支付宝、微博、钉钉等多平台授权登录方式，支持通过Typecho、WordPress插件实现免代码接入
 
 ## 接入指南
 

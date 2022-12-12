@@ -44,6 +44,7 @@
         "detailType": "offiaccount",//调用/oauth接口时传入的参数
         "userInfo": {
             "openId": "03af4fa4-f755-471d-a9be-1080c133ed03",
+            "unionId": "665049e8-c8c0-4ef9-adb6-5e254ce5ce98",//仅微信登录方式会有内容
             "nickName": "wixy",
             "avatarUrl": "https://gravatar.loli.net/avatar",
             "mobile": "13888888888",//仅验证码登录方式返回

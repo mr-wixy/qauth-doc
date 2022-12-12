@@ -30,8 +30,9 @@
 | 微博登录                     | &check;    | &check;   |
 | 钉钉登录                     | &check;    | &check;  |
 | 微信扫码登陆(H5)             | &cross;    | &check;   |
-| 微信扫码登陆(开放平台)        | &cross;   | &check;   |
 | 微信客户端静默登陆            | &cross;   | &check;   |
+| 手机浏览器拉起微信登录        | &cross;   | &check;   |
+| 微信扫码登陆(开放平台)        | &cross;   | &check;   |
 | 短信验证码登录                | &cross;   | &check;   |
 | 扫码登录界面自定义背景         | &cross;   | &check;   |
 | 自定义小程序码图标            | &cross;   | &check;   |
